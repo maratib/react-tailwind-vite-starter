@@ -1,11 +1,10 @@
-// import { useState } from "react";
+import Hello from "./components/Hello";
 
 function App() {
-  // const [count, setCount] = useState(0);
-
   return (
     <>
-      <h1 className="text-red-500">Hello React</h1>
+      <h1 className="text-red-500">Welcome to React With Tailwind</h1>
+      <Hello />
     </>
   );
 }
